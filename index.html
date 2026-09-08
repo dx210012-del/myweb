@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>個人學習歷程 & IP 品牌頁面</title>
+    <!-- 引入獨立的 CSS 樣式檔 -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- 頂部導覽列 -->
+    <nav>
+        <div class="logo">Alex.IP</div>
+        <ul class="nav-links">
+            <li><a href="#about">關於我</a></li>
+            <li><a href="#timeline">大學歷程</a></li>
+            <li><a href="#portfolio">專案作品</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero 區塊 (個人簡介) -->
+    <section id="about" class="hero">
+        <img src="https://via.placeholder.com/150" alt="個人頭像" class="profile-img">
+        <h1>你好，我是 [你的名字]</h1>
+        <p>跨領域創作者 / [你的系所名稱]畢業生。致力於用技術與創意解決問題，這是我的四年成長檔案。</p>
+        <a href="#portfolio" class="btn">瀏覽作品集</a>
+    </section>
+
+    <!-- 大學四年歷程 (Timeline) -->
+    <section id="timeline">
+        <h2 class="section-title">大學四年探索歷程</h2>
+        <div class="timeline">
+            
+            <div class="timeline-item left">
+                <div class="timeline-content">
+                    <span class="year-tag">大一：打下基石</span>
+                    <h3>基礎學科與社團探索</h3>
+                    <p>修讀基礎課程取得 GPA 3.8/4.0。加入 [社團名稱]，擔任幹部並首次參與大型活動企劃。</p>
+                </div>
+            </div>
+
+            <div class="timeline-item right">
+                <div class="timeline-content">
+                    <span class="year-tag">大二：專業深耕</span>
+                    <h3>核心技能與跨領域嘗試</h3>
+                    <p>開始學習專案實作、程式開發/設計軟體，參加了第一場全國性競賽並獲得佳績。</p>
+                </div>
+            </div>
+
+            <div class="timeline-item left">
+                <div class="timeline-content">
+                    <span class="year-tag">大三：實戰躍升</span>
+                    <h3>企業實習與專案組長</h3>
+                    <p>進入 [公司/機構] 擔任實習生，協助執行 [具體專案]。同時帶領團隊進行畢業專題開發。</p>
+                </div>
+            </div>
+
+            <div class="timeline-item right">
+                <div class="timeline-content">
+                    <span class="year-tag">大四：成果綻放</span>
+                    <h3>畢業專題與個人 IP 打造</h3>
+                    <p>完成畢業專題展示，成功將大學四年累積的經驗整理為個人品牌，準備邁向下一階段。</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- 成果與作品集展示 (Portfolio) -->
+    <section id="portfolio">
+        <h2 class="section-title">學習成果 & 專案作品</h2>
+        
+        <!-- 分類篩選按鈕 -->
+        <div class="filter-buttons">
+            <button class="filter-btn active" data-filter="all">全部作品</button>
+            <button class="filter-btn" data-filter="academic">學術/專題</button>
+            <button class="filter-btn" data-filter="design">設計/創作</button>
+            <button class="filter-btn" data-filter="event">活動/社團</button>
+        </div>
+
+        <!-- 作品卡片列表 -->
+        <div class="portfolio-grid">
+            <div class="portfolio-card" data-category="academic">
+                <img src="https://via.placeholder.com/400x250" alt="專案照片">
+                <div class="portfolio-info">
+                    <h3>畢業專題作品</h3>
+                    <p>使用 HTML/CSS/JS 打造的互動式系統，解決真實情境中的資訊不對稱問題。</p>
+                </div>
+            </div>
+
+            <div class="portfolio-card" data-category="design">
+                <img src="https://via.placeholder.com/400x250" alt="專案照片">
+                <div class="portfolio-info">
+                    <h3>品牌視覺設計</h3>
+                    <p>為大二社團活動規劃的全套 UI/UX 與視覺海報設計方案。</p>
+                </div>
+            </div>
+
+            <div class="portfolio-card" data-category="event">
+                <img src="https://via.placeholder.com/400x250" alt="專案照片">
+                <div class="portfolio-info">
+                    <h3>全國大專院校營隊總召</h3>
+                    <p>協調超過 50 人團隊，成功吸引超過 200 位學員參與的全國性活動。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 頁尾 -->
+    <footer>
+        <p>© 2026 [你的名字]. All Rights Reserved. Built with HTML, CSS, & JS.</p>
+    </footer>
+
+    <!-- 引入獨立的 JavaScript 腳本檔 -->
+    <script src="script.js"></script>
+</body>
+</html>
